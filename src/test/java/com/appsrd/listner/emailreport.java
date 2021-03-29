@@ -79,7 +79,7 @@ public class emailreport implements IReporter {
 				eReport.delete();
 				System.out.println("Deleted");
 			}*/
-	        return new PrintWriter(new BufferedWriter(new FileWriter(new File(outdir, timestamp+"TestNG-emailable-report.html"))));
+	        return new PrintWriter(new BufferedWriter(new FileWriter(new File(outdir,"TestNG-emailable-report.html"))));
 
 	    }
 
