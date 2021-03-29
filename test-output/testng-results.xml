@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SRDlogistics" duration-ms="74030" started-at="2021-03-29T07:12:17Z" finished-at="2021-03-29T07:13:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8" started-at="2021-03-29T07:12:17Z" finished-at="2021-03-29T07:12:17Z">
+    </test> <!-- Test -->
+    <test name="Login_testcase" duration-ms="73925" started-at="2021-03-29T07:12:17Z" finished-at="2021-03-29T07:13:31Z">
+      <class name="com.appsrd.stepdefinition.login_page_test_cases">
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="browser" is-config="true" duration-ms="24921" started-at="2021-03-29T12:42:17Z" finished-at="2021-03-29T12:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://qa.appsrdlogistics.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="login_with_incorrect_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="login_with_incorrect_password" duration-ms="2899" started-at="2021-03-29T12:42:42Z" finished-at="2021-03-29T12:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iqbal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xxxx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incorrect Username or Password, please check login credential and try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_incorrect_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="close" is-config="true" duration-ms="210" started-at="2021-03-29T12:42:45Z" finished-at="2021-03-29T12:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="browser" is-config="true" duration-ms="14689" started-at="2021-03-29T12:42:45Z" finished-at="2021-03-29T12:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://qa.appsrdlogistics.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="login_with_correct__username_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="login_with_correct__username_password" duration-ms="9542" started-at="2021-03-29T12:43:00Z" finished-at="2021-03-29T12:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iqbal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4646]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://qa.appsrdlogistics.com/dashboard/classic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_correct__username_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="close" is-config="true" duration-ms="192" started-at="2021-03-29T12:43:10Z" finished-at="2021-03-29T12:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="browser" is-config="true" duration-ms="21330" started-at="2021-03-29T12:43:10Z" finished-at="2021-03-29T12:43:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://qa.appsrdlogistics.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="Forget_password(java.lang.String, java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="Forget_password" duration-ms="3" started-at="2021-03-29T12:43:31Z" finished-at="2021-03-29T12:43:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iqbal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forget_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="close" is-config="true" duration-ms="115" started-at="2021-03-29T12:43:31Z" finished-at="2021-03-29T12:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.appsrd.stepdefinition.login_page_test_cases -->
+    </test> <!-- Login_testcase -->
+  </suite> <!-- SRDlogistics -->
+</testng-results>

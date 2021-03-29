@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SRDlogistics">
+              <span class="suite-name border-passed">SRDlogistics</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SRDlogistics">
+                    <span>C:\Users\EIT-JAGADESHAN\eclipse-workspace\appsrd\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SRDlogistics">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SRDlogistics">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SRDlogistics">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SRDlogistics">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SRDlogistics">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SRDlogistics">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SRDlogistics" class="hide-methods passed suite-SRDlogistics"> (hide)</a> <!-- hide-methods passed suite-SRDlogistics -->
+                      <a href="#" panel-name="suite-SRDlogistics" class="show-methods passed suite-SRDlogistics"> (show)</a> <!-- show-methods passed suite-SRDlogistics -->
+                    </span>
+                    <div class="method-list-content passed suite-SRDlogistics">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SRDlogistics" title="com.appsrd.stepdefinition.login_page_test_cases" hash-for-method="Forget_password(iqbal, 4646)">Forget_password(iqbal, 4646)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SRDlogistics" title="com.appsrd.stepdefinition.login_page_test_cases" hash-for-method="login_with_correct__username_password(iqbal, 4646, http://qa.appsrdlogistics.com/dashboard/classic)">login_with_correct__username_password(iqbal, 4646, http://qa.appsrdlogistics.com/dashboard/classic)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SRDlogistics" title="com.appsrd.stepdefinition.login_page_test_cases" hash-for-method="login_with_incorrect_password(iqbal, xxxx, Incorrect Username or Password, please check login credential and try again.)">login_with_incorrect_password(iqbal, xxxx, Incorrect Username or Password, please check login credential and try again.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SRDlogistics -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SRDlogistics" class="panel SRDlogistics">
+          <div class="suite-SRDlogistics-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.appsrd.stepdefinition.login_page_test_cases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Forget_password(iqbal, 4646)">
+                  </a> <!-- Forget_password(iqbal, 4646) -->
+                  <span class="method-name">Forget_password</span>
+                  <span class="parameters">(iqbal, 4646)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_with_correct__username_password(iqbal, 4646, http://qa.appsrdlogistics.com/dashboard/classic)">
+                  </a> <!-- login_with_correct__username_password(iqbal, 4646, http://qa.appsrdlogistics.com/dashboard/classic) -->
+                  <span class="method-name">login_with_correct__username_password</span>
+                  <span class="parameters">(iqbal, 4646, http://qa.appsrdlogistics.com/dashboard/classic)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_with_incorrect_password(iqbal, xxxx, Incorrect Username or Password, please check login credential and try again.)">
+                  </a> <!-- login_with_incorrect_password(iqbal, xxxx, Incorrect Username or Password, please check login credential and try again.) -->
+                  <span class="method-name">login_with_incorrect_password</span>
+                  <span class="parameters">(iqbal, xxxx, Incorrect Username or Password, please check login credential and try again.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SRDlogistics-class-passed -->
+        </div> <!-- panel SRDlogistics -->
+        <div panel-name="test-xml-SRDlogistics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\EIT-JAGADESHAN\eclipse-workspace\appsrd\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SRDlogistics&quot;&gt;
+  &lt;parameter name=&quot;error_message&quot; value=&quot;Incorrect Username or Password, please check login credential and try again.&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;4646&quot;/&gt;
+  &lt;parameter name=&quot;Username&quot; value=&quot;iqbal&quot;/&gt;
+  &lt;parameter name=&quot;invalid_password&quot; value=&quot;xxxx&quot;/&gt;
+  &lt;parameter name=&quot;dashboard_url&quot; value=&quot;http://qa.appsrdlogistics.com/dashboard/classic&quot;/&gt;
+  &lt;parameter name=&quot;Url&quot; value=&quot;http://qa.appsrdlogistics.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.appsrd.listner.emailreport&quot;/&gt;
+    &lt;listener class-name=&quot;com.appsrd.listner.screenshot&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;Login_testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.appsrd.stepdefinition.login_page_test_cases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login_testcase --&gt;
+&lt;/suite&gt; &lt;!-- SRDlogistics --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SRDlogistics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SRDlogistics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (0 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Login_testcase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SRDlogistics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SRDlogistics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SRDlogistics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SRDlogistics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SRDlogistics');
+function tableData_SRDlogistics() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login_with_correct__username_password')
+data.setCell(0, 2, 'com.appsrd.stepdefinition.login_page_test_cases')
+data.setCell(0, 3, 9542);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login_with_incorrect_password')
+data.setCell(1, 2, 'com.appsrd.stepdefinition.login_page_test_cases')
+data.setCell(1, 3, 2899);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Forget_password')
+data.setCell(2, 2, 'com.appsrd.stepdefinition.login_page_test_cases')
+data.setCell(2, 3, 3);
+window.suiteTableData['SRDlogistics']= { tableData: data, tableDiv: 'times-div-SRDlogistics'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-SRDlogistics">
+              </div> <!-- times-div-SRDlogistics -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SRDlogistics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SRDlogistics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SRDlogistics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SRDlogistics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.appsrd.stepdefinition.login_page_test_cases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browser(http://qa.appsrdlogistics.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_with_incorrect_password(iqbal, xxxx, Incorrect Username or Password, please check login credential and try again.)</span>
+                <span class="method-start">24921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">27822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browser(http://qa.appsrdlogistics.com/)</span>
+                <span class="method-start">28033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_with_correct__username_password(iqbal, 4646, http://qa.appsrdlogistics.com/dashboard/classic)</span>
+                <span class="method-start">42722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">52267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browser(http://qa.appsrdlogistics.com/)</span>
+                <span class="method-start">52460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Forget_password(iqbal, 4646)</span>
+                <span class="method-start">73790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">73797 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
