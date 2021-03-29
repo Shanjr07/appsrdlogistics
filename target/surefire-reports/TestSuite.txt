@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 79.188 s <<< FAILURE! - in TestSuite
-login_with_incorrect_password(com.appsrd.stepdefinition.login_page_test_cases)  Time elapsed: 2.699 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 70.527 s <<< FAILURE! - in TestSuite
+login_with_incorrect_password(com.appsrd.stepdefinition.login_page_test_cases)  Time elapsed: 1.469 s  <<< FAILURE!
 java.lang.AssertionError: it showsIncorrect Username or Password, please check login credential and try again. expected [true] but found [false]
 	at com.appsrd.stepdefinition.login_page_test_cases.login_with_incorrect_password(login_page_test_cases.java:29)
 
