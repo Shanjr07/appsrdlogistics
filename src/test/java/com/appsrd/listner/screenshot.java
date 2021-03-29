@@ -21,7 +21,7 @@ import com.appsrd.resource.base;
 
 public class screenshot implements ITestListener {
 		WebDriver driver=null;
-		File file = new File("");
+		File file = new File("screenshort/");
 		String filePath = file.getAbsolutePath();
 	    public void onTestFailure(ITestResult result) {
 	    	String methodName=result.getName().toString().trim();

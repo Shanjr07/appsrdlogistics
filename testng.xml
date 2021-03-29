@@ -8,8 +8,8 @@
 <!-- <parameter name="invalid_Username" value="iqbal" /> -->
 <parameter name="invalid_password" value="xxxx" />
 <parameter name="dashboard_url" value="http://qa.appsrdlogistics.com/dashboard/classic" />
-<parameter name="error_message" value="Incorrect Username or Password, please check login credential and try again." />  
-<!-- <parameter name="error_message" value="Incorrect Username or Password, please check login credential and try " />  -->
+<!-- <parameter name="error_message" value="Incorrect Username or Password, please check login credential and try again." />   -->
+<parameter name="error_message" value="Incorrect Username or Password, please check login credential and try " /> 
 <listeners>
 <listener class-name="com.appsrd.listner.emailreport" > 
 </listener>
