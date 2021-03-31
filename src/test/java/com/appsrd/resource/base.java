@@ -119,7 +119,7 @@ public class base {
 		 //String text1 = null;
 			List<WebElement> trow = ele;
 			int tr11 = trow.size();
-			System.out.println(tr11);
+			//System.out.println(tr11);
 			for (int i = 0; i < trow.size(); i++) {
 				WebElement tr = trow.get(i);
 				List<WebElement> tdata = tr.findElements(By.tagName("td"));
