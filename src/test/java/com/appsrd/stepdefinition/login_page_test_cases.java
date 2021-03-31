@@ -36,19 +36,22 @@ public class login_page_test_cases extends base {
 		send(s1, page1.getUserid());
 		send(s2, page1.getPass());
 		click(page1.getLogin());
-		urlwait();
+		urlwait("http://qa.appsrdlogistics.com/dashboard/classic");
 		Assert.assertTrue(url().equals(s3), "it shows" + url());
 	}
 
-	@Parameters({ "Username", "password" })
+
+	/*@Parameters({ "Username", "password" })
 	@Test(priority = 3)
 	public void Forget_password(String s1, String s2) {
-		loginpage page1 = new loginpage();
+		//loginpage page1 = new loginpage();
 
 	}
-
+*/
 	@AfterMethod
 	public void close() {
 		browserclose();
 	}
+	
+	
 }

@@ -1,3 +1,4 @@
+com\appsrd\listner\newreport.class
 com\appsrd\object\loginpage.class
 com\appsrd\resource\base.class
 com\appsrd\listner\emailreport.class

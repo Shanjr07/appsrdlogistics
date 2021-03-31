@@ -8,7 +8,6 @@
   <parameter name="dashboard_url" value="http://qa.appsrdlogistics.com/dashboard/classic"/>
   <parameter name="Url" value="http://qa.appsrdlogistics.com/"/>
   <listeners>
-    <listener class-name="com.appsrd.listner.emailreport"/>
     <listener class-name="com.appsrd.listner.screenshot"/>
   </listeners>
   <test name="Login_testcase(failed)">
