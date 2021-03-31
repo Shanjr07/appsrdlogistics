@@ -13,12 +13,12 @@
 <parameter name="fromdate" value="2021-01-01" />
 <parameter name="todate" value="2021-01-01" />
 <listeners>
-<!-- <listener class-name="com.appsrd.listner.emailreport" > 
-</listener> -->
+<listener class-name="com.appsrd.listner.emailreport" > 
+</listener> 
 <listener class-name="com.appsrd.listner.screenshot" > 
 </listener>
-<listener class-name="com.appsrd.listner.newreport" > 
-</listener> 
+<!-- <listener class-name="com.appsrd.listner.newreport" > 
+</listener>  -->
 </listeners>
 
 
