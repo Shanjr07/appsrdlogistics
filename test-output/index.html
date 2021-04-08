@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-SRDlogistics">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,17 +101,7 @@
                     <div class="method-list-content passed suite-SRDlogistics">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SRDlogistics" title="com.appsrd.stepdefinition.report_page_test_cases" hash-for-method="Memo_less_report(2021-01-01, 2021-01-01)">Memo_less_report(2021-01-01, 2021-01-01)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SRDlogistics" title="com.appsrd.stepdefinition.login_page_test_cases" hash-for-method="login_with_correct__username_password(sadakath, srdsrd2020, http://qa.appsrdlogistics.com/dashboard/classic)">login_with_correct__username_password(sadakath, srdsrd2020, http://qa.appsrdlogistics.com/dashboard/classic)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SRDlogistics" title="com.appsrd.stepdefinition.login_page_test_cases" hash-for-method="login_with_incorrect_password(sadakath, xxxx, Incorrect Username or Password, please check login credential and try again.)">login_with_incorrect_password(sadakath, xxxx, Incorrect Username or Password, please check login credential and try again.)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SRDlogistics" title="com.appsrd.stepdefinition.report_page_test_cases" hash-for-method="GC_Not_ReceivedReport(22021-04-02)">GC_Not_ReceivedReport(22021-04-02)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SRDlogistics -->
@@ -134,34 +124,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Memo_less_report(2021-01-01, 2021-01-01)">
-                  </a> <!-- Memo_less_report(2021-01-01, 2021-01-01) -->
-                  <span class="method-name">Memo_less_report</span>
-                  <span class="parameters">(2021-01-01, 2021-01-01)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SRDlogistics-class-passed -->
-          <div class="suite-SRDlogistics-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.appsrd.stepdefinition.login_page_test_cases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login_with_correct__username_password(sadakath, srdsrd2020, http://qa.appsrdlogistics.com/dashboard/classic)">
-                  </a> <!-- login_with_correct__username_password(sadakath, srdsrd2020, http://qa.appsrdlogistics.com/dashboard/classic) -->
-                  <span class="method-name">login_with_correct__username_password</span>
-                  <span class="parameters">(sadakath, srdsrd2020, http://qa.appsrdlogistics.com/dashboard/classic)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login_with_incorrect_password(sadakath, xxxx, Incorrect Username or Password, please check login credential and try again.)">
-                  </a> <!-- login_with_incorrect_password(sadakath, xxxx, Incorrect Username or Password, please check login credential and try again.) -->
-                  <span class="method-name">login_with_incorrect_password</span>
-                  <span class="parameters">(sadakath, xxxx, Incorrect Username or Password, please check login credential and try again.)</span>
+                  <a name="GC_Not_ReceivedReport(22021-04-02)">
+                  </a> <!-- GC_Not_ReceivedReport(22021-04-02) -->
+                  <span class="method-name">GC_Not_ReceivedReport</span>
+                  <span class="parameters">(22021-04-02)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -177,6 +143,8 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;SRDlogistics&quot;&gt;
   &lt;parameter name=&quot;error_message&quot; value=&quot;Incorrect Username or Password, please check login credential and try again.&quot;/&gt;
+  &lt;parameter name=&quot;tilldate&quot; value=&quot;22021-04-02&quot;/&gt;
+  &lt;parameter name=&quot;Cheque/Referenc Number&quot; value=&quot;002457&quot;/&gt;
   &lt;parameter name=&quot;password&quot; value=&quot;srdsrd2020&quot;/&gt;
   &lt;parameter name=&quot;todate&quot; value=&quot;2021-01-01&quot;/&gt;
   &lt;parameter name=&quot;Username&quot; value=&quot;sadakath&quot;/&gt;
@@ -185,19 +153,18 @@
   &lt;parameter name=&quot;Url&quot; value=&quot;http://qa.appsrdlogistics.com/&quot;/&gt;
   &lt;parameter name=&quot;fromdate&quot; value=&quot;2021-01-01&quot;/&gt;
   &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.appsrd.listner.emailreport&quot;/&gt;
     &lt;listener class-name=&quot;com.appsrd.listner.screenshot&quot;/&gt;
-    &lt;listener class-name=&quot;com.appsrd.listner.newreport&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
-  &lt;test name=&quot;Login_testcase&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.appsrd.stepdefinition.login_page_test_cases&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login_testcase --&gt;
   &lt;test name=&quot;Report_testcase&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.appsrd.stepdefinition.report_page_test_cases&quot;/&gt;
+      &lt;class name=&quot;com.appsrd.stepdefinition.report_page_test_cases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;GC_Not_ReceivedReport&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.appsrd.stepdefinition.report_page_test_cases --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Report_testcase --&gt;
 &lt;/suite&gt; &lt;!-- SRDlogistics --&gt;
@@ -212,9 +179,6 @@
             <ul>
               <li>
                 <span class="test-name">Test (0 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Login_testcase (1 class)</span>
               </li>
               <li>
                 <span class="test-name">Report_testcase (1 class)</span>
@@ -243,24 +207,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Memo_less_report')
+data.setCell(0, 1, 'GC_Not_ReceivedReport')
 data.setCell(0, 2, 'com.appsrd.stepdefinition.report_page_test_cases')
-data.setCell(0, 3, 85638);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login_with_correct__username_password')
-data.setCell(1, 2, 'com.appsrd.stepdefinition.login_page_test_cases')
-data.setCell(1, 3, 10938);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'login_with_incorrect_password')
-data.setCell(2, 2, 'com.appsrd.stepdefinition.login_page_test_cases')
-data.setCell(2, 3, 1908);
+data.setCell(0, 3, 47778);
 window.suiteTableData['SRDlogistics']= { tableData: data, tableDiv: 'times-div-SRDlogistics'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-SRDlogistics">
               </div> <!-- times-div-SRDlogistics -->
             </div> <!-- times-div -->
@@ -275,9 +231,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-SRDlogistics" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.appsrd.stepdefinition.report_page_test_cases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Memo_less_report</span>
+                <br/>
+                <span class="ignored-method-name">Cheque_search_report</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-SRDlogistics" class="panel">
@@ -286,45 +251,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.appsrd.stepdefinition.login_page_test_cases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">browser(http://qa.appsrdlogistics.com/)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">login_with_incorrect_password(sadakath, xxxx, Incorrect Username or Password, please check login credential and try again.)</span>
-                <span class="method-start">13837 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">close</span>
-                <span class="method-start">15746 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">browser(http://qa.appsrdlogistics.com/)</span>
-                <span class="method-start">15899 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">login_with_correct__username_password(sadakath, srdsrd2020, http://qa.appsrdlogistics.com/dashboard/classic)</span>
-                <span class="method-start">28175 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">close</span>
-                <span class="method-start">39116 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.appsrd.stepdefinition.report_page_test_cases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browser(http://qa.appsrdlogistics.com/, sadakath, srdsrd2020)</span>
-                <span class="method-start">39513 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Memo_less_report(2021-01-01, 2021-01-01)</span>
-                <span class="method-start">58961 ms</span>
+                <span class="method-name">GC_Not_ReceivedReport(22021-04-02)</span>
+                <span class="method-start">17515 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">144600 ms</span>
+                <span class="method-start">65295 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [SRDlogistics]">
-  <parameter name="error_message" value="Incorrect Username or Password, please check login credential and try "/>
+  <parameter name="error_message" value="Incorrect Username or Password, please check login credential and try again."/>
+  <parameter name="tilldate" value="22021-04-02"/>
+  <parameter name="Cheque/Referenc Number" value="002457"/>
   <parameter name="password" value="srdsrd2020"/>
   <parameter name="todate" value="2021-01-01"/>
   <parameter name="Username" value="sadakath"/>
@@ -10,17 +12,17 @@
   <parameter name="Url" value="http://qa.appsrdlogistics.com/"/>
   <parameter name="fromdate" value="2021-01-01"/>
   <listeners>
+    <listener class-name="com.appsrd.listner.emailreport"/>
     <listener class-name="com.appsrd.listner.screenshot"/>
-    <listener class-name="com.appsrd.listner.newreport"/>
   </listeners>
-  <test name="Login_testcase(failed)">
+  <test name="Report_testcase(failed)">
     <classes>
       <class name="com.appsrd.stepdefinition.report_page_test_cases">
         <methods>
-          <include name="Memo_less_report" invocation-numbers="0"/>
           <include name="browser"/>
+          <include name="GC_Not_ReceivedReport" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.appsrd.stepdefinition.report_page_test_cases -->
     </classes>
-  </test> <!-- Login_testcase(failed) -->
+  </test> <!-- Report_testcase(failed) -->
 </suite> <!-- Failed suite [SRDlogistics] -->

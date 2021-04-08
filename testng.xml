@@ -1,41 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="SRDlogistics"  parallel="false" verbose="1" >
-<parameter name="Url" value="http://qa.appsrdlogistics.com/" />
-<parameter name="Username" value="sadakath" />
-<parameter name="password" value="srdsrd2020" />
-<!-- <parameter name="invalid_Username" value="iqbal" /> -->
-<parameter name="invalid_password" value="xxxx" />
-<parameter name="dashboard_url" value="http://qa.appsrdlogistics.com/dashboard/classic" />
-<parameter name="error_message" value="Incorrect Username or Password, please check login credential and try again." />   
-<!-- <parameter name="error_message" value="Incorrect Username or Password, please check login credential and try " />  -->
-<parameter name="fromdate" value="2021-01-01" />
-<parameter name="todate" value="2021-01-01" />
-<listeners>
-<listener class-name="com.appsrd.listner.emailreport" > 
-</listener> 
-<listener class-name="com.appsrd.listner.screenshot" > 
-</listener>
-<!-- <listener class-name="com.appsrd.listner.newreport" > 
-</listener>  -->
-</listeners>
+<suite name="SRDlogistics" parallel="false" verbose="1">
+	<parameter name="Url" value="http://qa.appsrdlogistics.com/" />
+	<parameter name="Username" value="sadakath" />
+	<parameter name="password" value="srdsrd2020" />
+	<!-- <parameter name="invalid_Username" value="iqbal" /> -->
+	<parameter name="invalid_password" value="xxxx" />
+	<parameter name="dashboard_url"
+		value="http://qa.appsrdlogistics.com/dashboard/classic" />
+	<parameter name="error_message"
+		value="Incorrect Username or Password, please check login credential and try again." />
+	<!-- <parameter name="error_message" value="Incorrect Username or Password, 
+		please check login credential and try " /> -->
+	<parameter name="fromdate" value="2021-01-01" />
+	<parameter name="todate" value="2021-01-01" />
+	<parameter name="tilldate" value="22021-04-02" />
+
+	<parameter name="Cheque/Referenc Number" value="002457" />
+	<listeners>
+		<listener class-name="com.appsrd.listner.emailreport">
+		</listener>
+		<listener class-name="com.appsrd.listner.screenshot">
+		</listener>
+		<!-- <listener class-name="com.appsrd.listner.newreport" > </listener> -->
+	</listeners>
 
 
-  <test thread-count="5" name="Test">
-  </test> <!-- Test -->
+	<test thread-count="5" name="Test">
+	</test> <!-- Test -->
 
-  <test name="Login_testcase">
-    <classes>
-      <class name="com.appsrd.stepdefinition.login_page_test_cases"/> 
-      </classes>
-  </test>
-  <test name="Report_testcase">
-    <classes>
-            <class name="com.appsrd.stepdefinition.report_page_test_cases"/>
-      </classes>
-  </test>
-  
-  
-  
+	<!-- <test name="Login_testcase"> <classes> <class name="com.appsrd.stepdefinition.login_page_test_cases"/> 
+		</classes> </test> -->
+	<test name="Report_testcase">
+		<classes>
+			<class name="com.appsrd.stepdefinition.report_page_test_cases">
+				<methods>
+					<!-- <include name="Memo_less_report" />
+					<include name="check_search_report" /> -->
+					<include name="GC_Not_ReceivedReport" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
 </suite> <!-- Suite -->

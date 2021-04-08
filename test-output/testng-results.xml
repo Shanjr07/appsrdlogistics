@@ -1,91 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SRDlogistics" duration-ms="144757" started-at="2021-03-31T07:09:10Z" finished-at="2021-03-31T07:11:35Z">
+  <suite name="SRDlogistics" duration-ms="65573" started-at="2021-04-03T08:54:47Z" finished-at="2021-04-03T08:55:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9" started-at="2021-03-31T07:09:10Z" finished-at="2021-03-31T07:09:10Z">
+    <test name="Test" duration-ms="9" started-at="2021-04-03T08:54:47Z" finished-at="2021-04-03T08:54:47Z">
     </test> <!-- Test -->
-    <test name="Login_testcase" duration-ms="39515" started-at="2021-03-31T07:09:10Z" finished-at="2021-03-31T07:09:50Z">
-      <class name="com.appsrd.stepdefinition.login_page_test_cases">
-        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="browser" is-config="true" duration-ms="13837" started-at="2021-03-31T12:39:10Z" finished-at="2021-03-31T12:39:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://qa.appsrdlogistics.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method status="PASS" signature="login_with_incorrect_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="login_with_incorrect_password" duration-ms="1908" started-at="2021-03-31T12:39:24Z" finished-at="2021-03-31T12:39:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sadakath]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xxxx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Incorrect Username or Password, please check login credential and try again.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_with_incorrect_password -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="close" is-config="true" duration-ms="153" started-at="2021-03-31T12:39:26Z" finished-at="2021-03-31T12:39:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="browser" is-config="true" duration-ms="12276" started-at="2021-03-31T12:39:26Z" finished-at="2021-03-31T12:39:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://qa.appsrdlogistics.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method status="PASS" signature="login_with_correct__username_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="login_with_correct__username_password" duration-ms="10938" started-at="2021-03-31T12:39:38Z" finished-at="2021-03-31T12:39:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sadakath]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[srdsrd2020]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[http://qa.appsrdlogistics.com/dashboard/classic]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_with_correct__username_password -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.appsrd.stepdefinition.login_page_test_cases@553f17c]" name="close" is-config="true" duration-ms="385" started-at="2021-03-31T12:39:49Z" finished-at="2021-03-31T12:39:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.appsrd.stepdefinition.login_page_test_cases -->
-    </test> <!-- Login_testcase -->
-    <test name="Report_testcase" duration-ms="105185" started-at="2021-03-31T07:09:50Z" finished-at="2021-03-31T07:11:35Z">
+    <test name="Report_testcase" duration-ms="65530" started-at="2021-04-03T08:54:47Z" finished-at="2021-04-03T08:55:53Z">
       <class name="com.appsrd.stepdefinition.report_page_test_cases">
-        <test-method status="PASS" signature="browser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.report_page_test_cases@5f2108b5]" name="browser" is-config="true" duration-ms="19448" started-at="2021-03-31T12:39:50Z" finished-at="2021-03-31T12:40:09Z">
+        <test-method status="PASS" signature="browser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.report_page_test_cases@42dafa95]" name="browser" is-config="true" duration-ms="17515" started-at="2021-04-03T14:24:47Z" finished-at="2021-04-03T14:25:05Z">
           <params>
             <param index="0">
               <value>
@@ -106,23 +30,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="Memo_less_report(java.lang.String, java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.report_page_test_cases@5f2108b5]" name="Memo_less_report" duration-ms="85638" started-at="2021-03-31T12:40:09Z" finished-at="2021-03-31T12:41:35Z">
+        <test-method status="PASS" signature="GC_Not_ReceivedReport(java.lang.String)[pri:0, instance:com.appsrd.stepdefinition.report_page_test_cases@42dafa95]" name="GC_Not_ReceivedReport" duration-ms="47778" started-at="2021-04-03T14:25:05Z" finished-at="2021-04-03T14:25:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[2021-01-01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2021-01-01]]>
+                <![CDATA[22021-04-02]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Memo_less_report -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.appsrd.stepdefinition.report_page_test_cases@5f2108b5]" name="close" is-config="true" duration-ms="96" started-at="2021-03-31T12:41:35Z" finished-at="2021-03-31T12:41:35Z">
+        </test-method> <!-- GC_Not_ReceivedReport -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.appsrd.stepdefinition.report_page_test_cases@42dafa95]" name="close" is-config="true" duration-ms="215" started-at="2021-04-03T14:25:53Z" finished-at="2021-04-03T14:25:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

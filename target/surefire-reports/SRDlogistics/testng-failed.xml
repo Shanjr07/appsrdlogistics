@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [SRDlogistics]">
-  <parameter name="error_message" value="Incorrect Username or Password, please check login credential and try "/>
-  <parameter name="password" value="4646"/>
-  <parameter name="Username" value="iqbal"/>
+  <parameter name="error_message" value="Incorrect Username or Password, please check login credential and try again."/>
+  <parameter name="password" value="srdsrd2020"/>
+  <parameter name="todate" value="2021-01-01"/>
+  <parameter name="Username" value="sadakath"/>
   <parameter name="invalid_password" value="xxxx"/>
   <parameter name="dashboard_url" value="http://qa.appsrdlogistics.com/dashboard/classic"/>
   <parameter name="Url" value="http://qa.appsrdlogistics.com/"/>
+  <parameter name="fromdate" value="2021-01-01"/>
   <listeners>
+    <listener class-name="com.appsrd.listner.emailreport"/>
     <listener class-name="com.appsrd.listner.screenshot"/>
   </listeners>
-  <test name="Login_testcase(failed)">
+  <test name="Report_testcase(failed)">
     <classes>
       <class name="com.appsrd.stepdefinition.login_page_test_cases">
         <methods>
           <include name="close"/>
-          <include name="login_with_incorrect_password" invocation-numbers="0"/>
           <include name="browser"/>
         </methods>
       </class> <!-- com.appsrd.stepdefinition.login_page_test_cases -->
+      <class name="com.appsrd.stepdefinition.report_page_test_cases">
+        <methods>
+          <include name="Memo_less_report" invocation-numbers="0"/>
+          <include name="browser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.appsrd.stepdefinition.report_page_test_cases -->
     </classes>
-  </test> <!-- Login_testcase(failed) -->
+  </test> <!-- Report_testcase(failed) -->
 </suite> <!-- Failed suite [SRDlogistics] -->
