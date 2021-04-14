@@ -33,7 +33,7 @@ public class reportpage extends base {
 	@FindBy(id = "searchBtn")
 	private WebElement search;
 	@FindBy(xpath = "//ngb-typeahead-window//button[1]")
-	private WebElement alloption;
+	private WebElement firstoption;
 	@FindBy(tagName = "tbody")
 	private List<WebElement> tabledata;
 	@FindBy(tagName = "tr")
@@ -80,7 +80,7 @@ public class reportpage extends base {
 	}
 
 	public WebElement getAlloption() {
-		return alloption;
+		return firstoption;
 	}
 
 	public WebElement getChequesearch() {

@@ -104,6 +104,7 @@ public class report_page_test_cases extends base {
 		click(page2.getGC_Not_Received());
 		loaderwait();
 		waitelement(page2.getGodown());
+		loaderwait();
 		click(page2.getGodown());
 		// waitelement(page2.getTabledata());
 		String text = page2.getListbox().getText();
@@ -124,6 +125,18 @@ public class report_page_test_cases extends base {
 		 * 
 		 * System.out.println(ss[a]+"  ===  "+a); }
 		 */
+		
+		/*if(val3.isEmpty()) {
+			Assert.assertTrue(false, "AutoLrNumber contain nothing");
+		}
+		else {
+			Assert.assertTrue(true);
+		}*/
+		
+		
+		
+		
+		
 	}
 
 	@AfterMethod

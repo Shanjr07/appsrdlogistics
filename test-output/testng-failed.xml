@@ -7,9 +7,11 @@
   <parameter name="password" value="srdsrd2020"/>
   <parameter name="todate" value="2021-01-01"/>
   <parameter name="Username" value="sadakath"/>
+  <parameter name="lrUsername" value="imranbk"/>
   <parameter name="invalid_password" value="xxxx"/>
   <parameter name="dashboard_url" value="http://qa.appsrdlogistics.com/dashboard/classic"/>
   <parameter name="Url" value="http://qa.appsrdlogistics.com/"/>
+  <parameter name="lrpassword" value="rsaifi"/>
   <parameter name="fromdate" value="2021-01-01"/>
   <listeners>
     <listener class-name="com.appsrd.listner.emailreport"/>
@@ -17,12 +19,12 @@
   </listeners>
   <test name="Report_testcase(failed)">
     <classes>
-      <class name="com.appsrd.stepdefinition.report_page_test_cases">
+      <class name="com.appsrd.stepdefinition.lr_page_test_cases">
         <methods>
+          <include name="lr_entry_detail"/>
           <include name="browser"/>
-          <include name="GC_Not_ReceivedReport" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.appsrd.stepdefinition.report_page_test_cases -->
+      </class> <!-- com.appsrd.stepdefinition.lr_page_test_cases -->
     </classes>
   </test> <!-- Report_testcase(failed) -->
 </suite> <!-- Failed suite [SRDlogistics] -->

@@ -5,10 +5,13 @@
 	<parameter name="Url" value="http://qa.appsrdlogistics.com/" />
 	<parameter name="Username" value="sadakath" />
 	<parameter name="password" value="srdsrd2020" />
+	
 	<!-- <parameter name="invalid_Username" value="iqbal" /> -->
 	<parameter name="invalid_password" value="xxxx" />
 	<parameter name="dashboard_url"
 		value="http://qa.appsrdlogistics.com/dashboard/classic" />
+	<parameter name="lrUsername" value="imranbk" />
+	<parameter name="lrpassword" value="rsaifi" />
 	<parameter name="error_message"
 		value="Incorrect Username or Password, please check login credential and try again." />
 	<!-- <parameter name="error_message" value="Incorrect Username or Password, 
@@ -34,12 +37,14 @@
 		</classes> </test> -->
 	<test name="Report_testcase">
 		<classes>
-			<class name="com.appsrd.stepdefinition.report_page_test_cases">
+		<class name="com.appsrd.stepdefinition.lr_page_test_cases">
+<!-- 			<class name="com.appsrd.stepdefinition.report_page_test_cases"> -->
+
 				<methods>
-					<!-- <include name="Memo_less_report" />
-					<include name="check_search_report" /> -->
+<!-- 					<include name="Memo_less_report" />
+					<include name="check_search_report" />
 					<include name="GC_Not_ReceivedReport" />
-				</methods>
+ -->				</methods>
 			</class>
 		</classes>
 	</test>
